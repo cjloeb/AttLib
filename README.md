@@ -1,1 +1,6 @@
-Attitude Library for AAE 440. Written in MATLAB, for personal use only.
+AttLib
+
+
+MATLAB function library for AAE 440.
+
+Contains various functions to work with attitude representations. For personal use only.
