@@ -3,6 +3,7 @@ function symPrint(eq, label)
     % symPrint(eq, label)
     sympref('MatrixWithSquareBrackets', 'default'); % for display
     digits(4) % for rounding
+
     fprintf(label + " = ");
-    disp(sym(vpa(eq)));
+    disp(simplify(sym(vpa(eq))));
 end
